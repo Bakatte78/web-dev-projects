@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <title>
+        <h1>Welcome!</h1>
+        </title>
+</head>
+
+<body>
+<h2> This is the official bestie quiz, we hope you enjoy the quiz</h2>
+<!-- Make sure to copy the image address and paste it in the source attribute, if not and you use the 
+    link address, it will direct to the website/ show a link - it won't even show an image. 
+    Also include height and width arguments because this website image is too big - without it.
+-->
+
+<img src="https://static.onecms.io/wp-content/uploads/sites/6/2018/04/gettyimages-140941485-2000.jpg" alt="picture of friends" width="700" height="500"> <br>
+<p> If you would like to try out more of our quizzes, you can find them <a href="youtube">on youtube</a>
+</p>
+<h3> please enter your details below</h3>
+
+<p> What is your name? <input type="text" placeholder="e.g. Billie"><br>
+<!-- the code below, asking about the age, this could be changed from text type to number type
+-->
+    How old are you? <input type="text" placeholder="e.g. 25"><br>
+
+   <h3> Now the formalities is out of the way, let's get onto the interesting parts</h3>
+<!-- Just testing out how to make checkboxes - 
+    don't forget All related checkbox inputs should have the same name attribute.
+  --> <h5> Do you consider yourself a major bookworm?</h5>
+
+  <label for="bookworm"><input id="bookworm" type="checkbox" name="persona">bookworm </label><br>
+<label for="radio-rebel"><input id="radio-rebel" type="checkbox" name="persona">radio-rebel</label><br>
+
+<label for="n/a"><input id="n/a" type="checkbox" name="persona"> none of the above </label><br>
+If you don't relate to the options above, tell us what you see yourself as: <input type="text" placeholder="type here"><br>
+
+<br><h5>How many friends do you have?</h5> 
+<input type="number"> 
+
+<!-- Testing unordered and ordered lists
+-->
+<br><h5>What do you like to do in your free-time?</h5>
+<lable for="Watch Netflix"><input id="Watch Netflix" type="checkbox" name="freetime">Watch Netflix</lable><br>
+<label for="Sleepppp"><input id="Sleepppp" type="checkbox" name="freetime">Sleepppp</label><br>
+<label for="what is free-time?"><input id="what is free-time?" type="checkbox" name="freetime">what is free-time?</label><br>
+<div>
+<br><h4>Here are some things you could do with a bestie:</h4>
+<ul>
+    <li>party</li>
+    <li>homework</li>
+    <li>read</li>
+</ul>
+
+<br>
+<br><h4>These are the top three skills people look for in a bestie:</h4>
+<ol>
+<li> communication</li>
+<li> listening</li>
+<li> comedy</li>
+
+    </ol><br>
+    </div>
+<br><h2>Now you're done, do you give us permission to process your data? </h2>
+    <label> <input id="yes" type="text" placeholder="enter yes or no" name="processing" required></label>
+    
+        <h2>Please submit your quiz
+             <button type="submit">submit</button>
+            </h2>
+<!--
+or another way to set up a submit button: 
+<input type="text" placeholder="enter your sign"required>
+this means that the user must enter their sign - if they don't they cannot 
+press the submit button and submit their quiz.
+<button type="submit">submit</button>
+
+-->
+</p>
+
+<br><h2>Next Quiz...</h2>
+<a href="https://www.zodiacsignastrology.org/quiz-what-zodiac-sign-are-you-like/"><img src="https://static.wikia.nocookie.net/althistory/images/4/4b/Zodiac_Symbols.png/revision/latest/scale-to-width-down/340?cb=20110523010858"alt="zodiac personalities"></a>
+<p>Find out if you're a Cancer, Leo, Capricorn</p>
+</body>
+
+<footer>
+<p style="color: rgb(172, 150, 123);">
+Don't forget to follow us on <a href="https://twitter.com/?lang=en-gb">twitter</a>> and subrscibe to 
+our <a href="https://www.youtube.com/">youtube</a>>channel<br>
+    </p>
+<!-- for the href, you can link use # to make it a dead link 
+-->
+</footer>
+<!-- I haven't tested the form functionality for this project, mainly because I need a site where I 
+    would send the data to. 
+    Example:
+    <form action="/url-where-you-want-to-submit-form-data">
+  <input>
+</form>
+-->
+</html>
+<!-- copy paste this into https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_img_width or 
+    jsfiddle.net and see what it looks like.
+-->
